@@ -43,7 +43,21 @@ export const cardDetails = [
     
     {
         job_id: '87403',
-        company_name: 'Apple',
+        company_name: 'Netflix',
+        date_posted: '3 months ago',
+        role: 'UX Designer',
+        rate: '$200-250k',
+        city: 'Ney York, NY',
+        additional_details: {
+            work_mode: 'Full-time',
+            level: '',
+            location: 'In-office',
+        }
+    },
+    
+    {
+        job_id: '87543',
+        company_name: 'Netflix',
         date_posted: '3 months ago',
         role: 'UX Designer',
         rate: '$200-250k',

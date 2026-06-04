@@ -26,12 +26,15 @@
 
     @media (max-width: 895px) and (min-width: 592px)  {
         flex-direction: row;
-        gap: 23px;
+        /* gap: 23px; */
+        gap: 3.5vw;
+        justify-content: flex-start;
         width: 88vw;
     }
 
     @media (max-width: 1440px) and (min-width: 896px)  {
-        gap: 29px;
+        /* gap: 29px; */
+        gap: 3vw;
         justify-content: flex-start;
         width: 86.7vw;
     }
