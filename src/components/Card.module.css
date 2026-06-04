@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(24, 24, 24);
+    /* outline: 1px solid red !important; */
+}
+
+.cardHolder {
+    display: inline-flex;
+    /*max-width: 92%*/ /*832px*/;
+    margin: 0 auto;
+    margin-top: 100px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-height: fit-content;
+    flex-grow: 1;
+    gap: 26px;
+    /* width: 93%; */
+
+    @media (max-width: 591px)  {
+        flex-direction: column;
+        width: 79vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @media (max-width: 895px) and (min-width: 592px)  {
+        flex-direction: row;
+        gap: 23px;
+        width: 88vw;
+    }
+
+    @media (max-width: 1440px) and (min-width: 896px)  {
+        gap: 29px;
+        justify-content: flex-start;
+        width: 86.7vw;
+    }
+
+    @media (min-width: 1441px)  {
+        gap: 29px;
+        justify-content: flex-start;
+        width: 1183.87px;
+    }
+}
+
+.cardCenter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    /* height: 262px; */
+    height: fit-content;
+    border-radius: 21px;
+    padding: 26px 20px;
+    gap: 49px;
+    position: relative;
+    background-color: rgb(252, 252, 252)/*rgb(250, 195, 247)*/;
+
+    @media (max-width: 375px)  {
+        width: 79vw;
+        min-width: 252px;
+    }
+
+    @media (max-width: 425px) and (min-width: 376px)  {
+        width: 300px;
+    }
+
+    @media (max-width: 591px) and (min-width: 426px)  {
+        width: 71vw;
+        max-width: 339px;
+    }
+
+    @media (max-width: 895px) and (min-width: 592px)  {
+        width: 42vw;
+        max-width: 49vw;
+    }
+
+    @media (max-width: 1440px) and (min-width: 896px)  {
+        width: 26.7vw;
+        /* max-width: 49vw; */
+        max-width: 375px;
+    }
+}
+
+.cardBody {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: start;
+    /* background-color: rgb(250, 195, 247); */
+    background-color: inherit;
+    /* border: 1px solid rgba(158, 157, 157, 0.774); */
+    /* height: 200px; */
+    width: 100%;
+    border-radius: 16px;
+    /* padding: 14px; */
+    gap: 28px;
+}
+
+.cardTop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoHolder {
+    width: 43px;
+    height: 43px;
+    border-radius: 43px;
+    border: 1px solid rgba(158, 157, 157, 0.774);
+}
+
+.saveBtn {
+    /* width: 58px;
+    height: 25px; */
+    border-radius: 16px;
+    border: 1px solid rgba(158, 157, 157, 0.774);
+    background-color: inherit;
+    align-self: center;
+    font-weight: bolder;
+    color: rgb(138, 136, 136);
+    font-size: 11.275px;
+    padding: 6px 13px;
+    cursor: pointer;
+    transition: width ease-in-out 300ms;
+}
+
+.saved {
+    color: rgb(216, 216, 216) !important;
+    background-color: rgb(51, 51, 51) !important;
+    border-color: rgb(114, 114, 114);
+}
+
+.cardDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.companyDetails {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start !important;
+    /* margin-top: 15px; */
+    gap: 10px;
+    font-size: 14px;
+}
+
+.companyName {
+    font-weight: bold;
+}
+
+.postingDate {
+    font-weight: bolder;
+    color: rgb(138, 136, 136);
+    font-size: 11.575px;
+    text-align:left;
+    align-content: flex-end;
+}
+
+.role {
+    width: fit-content;
+    margin: 0px;
+    font-weight: medium;
+    font-size: 24px;
+
+    @media (max-width: 375px)  {
+        font-size: 20px;
+    }
+}
+
+.roleDetails {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+
+    .roleTag {
+        background-color: rgb(218, 216, 216);
+        padding: 6px 13px;
+        border-radius: 16px;
+        font-size: 11.575px;
+        font-weight: bolder;
+
+        @media (max-width: 375px)  {
+            padding: 6px 11px;
+            font-size: 11.542px;
+        }
+    }
+}
+
+.cardFoot {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 14px;
+    border-top: 1px solid rgb(204, 204, 204);
+
+    button {
+        color: rgb(249 249 249);
+        background-color: rgb(27, 27, 27);
+        border-radius: 7px;
+        border: none;
+        width: fit-content;
+        /* height: fit-content; */
+        text-align: center;
+        padding: 6px 13px;
+        font-size: 12.375px;
+        font-weight: bolder;
+        cursor: pointer;
+
+        &:hover {
+            background-color: rgb(39, 39, 39);
+        }
+
+        @media (max-width: 375px)  {
+            padding: 6px 8px;
+            font-size: 12.375px;
+        } 
+    }
+}
+
+.jobDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    .rate {
+        font-size: 14px;
+        font-weight: bolder;
+        margin: 0px;
+        letter-spacing: -0.5px;
+    }
+
+    .location {
+        font-size: 11.575px;
+        color: rgb(138, 136, 136);
+        font-weight: bolder;
+        margin: 0px;
+    }
+}
