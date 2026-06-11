@@ -1,0 +1,79 @@
+.headerName {
+    font-size: 27px;
+    font-weight: bolder;
+    padding-left: 0px;
+    margin: 0;
+    margin-bottom: 0;
+    margin-right: 5px;
+}
+
+.mainWrapper {
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    border-bottom: 1.5px solid #d1d1d1;
+    padding: 15px;
+    padding-bottom: 20px;
+    align-items: center;
+    padding-top: 18px;
+    background-color:#fefefe;
+
+
+
+
+        @media (max-width: 591px)  {
+        width: 79vw;
+        /* flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+    }
+
+    @media (max-width: 895px) and (min-width: 592px)  {
+        width: 88vw;
+        /* flex-direction: row;
+        gap: 3.5vw;
+        justify-content: flex-start; */
+    }
+
+    @media (max-width: 1440px) and (min-width: 896px)  {
+        width: 86.7vw;
+        /* gap: 3vw;
+        justify-content: flex-start; */
+    }
+
+    @media (min-width: 1441px)  {
+        width: 1183.87px;
+        /* gap: 29px;
+        justify-content: flex-start; */
+    }
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* gap: 15px; */
+    gap: 1.115vw;
+    /* background-color: white; */
+    height: fit-content;
+    border-radius: 0px;
+    align-items: center;
+    padding-left: 0px;
+}
+
+.btnWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 1.115vw;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    gap: 1.115vw;
+    margin-right: 0px;
+}

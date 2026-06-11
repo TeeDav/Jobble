@@ -1,10 +1,18 @@
+// import { Header } from './components/Header.jsx'
+import { Nav } from './components/Nav.jsx'
 import { CardWrapper } from './components/CardWrapper'
 import './App.css'
+import { jobs } from './data/card-data.js'
+import { useState } from 'react'
+
 
 export function App() {
+    const [jobList, setJobList] = useState(jobs)
+
     return (
         <>
-            <CardWrapper />
+            <Nav />
+            <CardWrapper jobs={jobList}/>
         </>
     )
 }

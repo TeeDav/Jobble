@@ -1,20 +1,20 @@
 import styles from './Card.module.css'
-import { cardDetails } from '../data/card-data.js'
 import { Card } from "./Card.jsx"
+import { useState } from 'react'
 
-export function CardWrapper() {
+export function CardWrapper(props) {
     return(
         <div className={styles.cardHolder}>
-            {/* <Card role={'Graphic Designer'}/> */}
-            {cardDetails.map((card) => (
+            {props.jobs.map((job) => (
                 <Card 
-                    key={card.job_id}
-                    company_name={card.company_name}
-                    date_posted={card.date_posted}
-                    role={card.role}
-                    additional_details={card.additional_details}
-                    rate={card.rate}
-                    city={card.city}
+                    logo={job.logo}
+                    key={job.job_id}
+                    company_name={job.company_name}
+                    date_posted={job.date_posted}
+                    role={job.role}
+                    additional_details={job.additional_details}
+                    rate={job.rate}
+                    city={job.city}
                 />
             ))}
         </div>

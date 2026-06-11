@@ -1,14 +1,16 @@
 import { useState } from 'react'
 import styles from './Card.module.css'
-import { SaveBtn } from './SaveBtn';
+import { SaveBtn } from './SaveBtn.jsx';
+import { Button } from './Button.jsx';
 
 export function Card (props) {
-    // const { role } = props
     return(
         <div className={styles.card}>
             <div className={styles.cardBody}>
                 <div className={styles.cardTop}>
-                    <div className={styles.logoHolder}></div>
+                    <div className={styles.logoHolder}>
+                        <img src={props.logo} alt="" className={styles.image}/>
+                    </div>
                     <SaveBtn />
                 </div>
                 <div className={styles.cardDetails}>
@@ -43,7 +45,9 @@ export function Card (props) {
                     <p className={styles.rate}>{props.rate}</p>
                     <p className={styles.location}>{props.city}</p>
                 </div>
-                <button className={styles.apply}>Apply Now</button>
+                {/* <button className={styles.apply}>Apply Now</button> */}
+                {/* <Button home='card' name='View'/> */}
+                <Button name='Apply'/>
             </div>
         </div>
     )

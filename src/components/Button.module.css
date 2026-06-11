@@ -1,0 +1,76 @@
+.cardBtn, button {
+    color: rgb(249 249 249);
+    background-color: rgb(27, 27, 27);
+    border-radius: 7px;
+    border: none;
+    width: fit-content;
+    text-align: center;
+    padding: 10px 17px;
+    font-size: 12.375px;
+    font-weight: bolder;
+    cursor: pointer;
+    box-sizing: border-box;
+    /* height: fit-content; */
+
+    &:hover {
+        background-color: rgb(39, 39, 39);
+    }
+
+    @media (max-width: 375px)  {
+        padding: 6px 8px;
+        font-size: 12.375px;
+    }
+}
+
+.navBtn {
+    /* background-color: rgba(158, 157, 157, 0.774); */
+    /* background-color: transparent; */
+    background-color: white;
+    border: 1px solid rgba(192, 191, 191, 0.774);
+    /* color: rgb(24, 24, 24); */
+    color: rgb(85 85 85);
+    font-weight: bolder;
+    border-radius: 15px;
+    /* border: 1px solid transparent; */
+    padding: 8px 17px;
+    
+
+    &:hover {
+        background-color: white;
+        /* border: 1px solid rgba(158, 157, 157, 0.774); */
+        border: 1px solid rgb(155, 155, 155);
+
+    }
+}
+
+.active {
+    background-color: #2d2d2d;
+    color: white;
+    border: 1px solid transparent;
+
+    &:hover {
+        background-color: #2d2d2d;
+        border: 1px solid transparent;
+        /* border: 1px solid rgba(158, 157, 157, 0.774); */
+        /* border: 1px solid rgb(155, 155, 155); */
+
+    }
+}
+
+.cardBtn {
+    background-color: transparent;
+    color: #2d2d2d;
+    border: 1px solid #2d2d2d;
+}
+
+.light {
+    background-color: transparent;
+    color: #2d2d2d;
+    border: 1px solid #2d2d2d;
+
+    &:hover {
+        background-color: inherit;
+        color: inherit;
+        border: 1px solid #2d2d2d;
+    }
+}
