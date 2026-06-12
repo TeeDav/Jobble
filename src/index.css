@@ -4,7 +4,8 @@
 }
 
 body {
-    background-color:rgb(227 227 227 / 59%);
+    /* background-color:rgb(227 227 227 / 59%); */
+    background-color: #fefefe;
     overflow: visible;
     display: block;
     margin: 0 auto;

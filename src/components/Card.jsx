@@ -47,7 +47,7 @@ export function Card (props) {
                 </div>
                 {/* <button className={styles.apply}>Apply Now</button> */}
                 {/* <Button home='card' name='View'/> */}
-                <Button name='Apply'/>
+                <Button name='View'/>
             </div>
         </div>
     )

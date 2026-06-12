@@ -32,6 +32,7 @@ export function Nav() {
                 <Button name='Login' theme='light'/>
                 <Button name='Sign-up' theme='dark'/>
             </div>
+            <img className={styles.hamburger} src={`src/assets/icon-hamburger.svg`} />
         </div>
     )
 }

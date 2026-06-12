@@ -10,4 +10,8 @@
   flex-direction: column;
   box-sizing: border-box;
   overflow: visible;
+
+  @media (max-width: 895px)  {
+        width: 100vw;
+    }
 }
