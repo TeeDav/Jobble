@@ -20,7 +20,7 @@ export function Nav() {
         <div className={styles.mainWrapper}>
             <div className={styles.wrapper}>
                 <Header />
-                <SearchBar />
+                <SearchBar home='nav'/>
                 <div className={styles.btnWrapper}>
                     <Button name='All' home={parent} clicked={true} clickHandler={setNavBtns}/>
                     <Button name='Remote' home={parent} clicked={false} clickHandler={setNavBtns}/>
@@ -31,6 +31,9 @@ export function Nav() {
             <div className={styles.profile}>
                 <Button name='Login' theme='light'/>
                 <Button name='Sign-up' theme='dark'/>
+            </div>
+            <div className={styles.userImage}>
+                <img src={`src/assets/images/profile_1.jpg`} alt="" />
             </div>
             <img className={styles.hamburger} src={`src/assets/icon-hamburger.svg`} />
         </div>
