@@ -24,3 +24,7 @@ input {
         border: 0px;
     }
 }
+
+.displayToggle {
+    display: none;
+}

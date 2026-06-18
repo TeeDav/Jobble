@@ -1,25 +1,49 @@
-.cardBtn, button {
-    color: rgb(249 249 249);
+.actionBtn {
+    padding: 10px 22px;
     background-color: rgb(27, 27, 27);
+    color: rgb(249 249 249);
+    letter-spacing: 0.019rem;
+}
+
+.landingActionBtn {
+    font-size: 13px;
+    padding: 13px 22px;
+    background-color: rgb(27, 27, 27);
+    color: rgb(249 249 249);
+}
+
+button {
     border-radius: 28px;
     border: none;
     width: fit-content;
     text-align: center;
-    padding: 10px 17px;
     font-size: 12.375px;
     font-weight: bolder;
     cursor: pointer;
     box-sizing: border-box;
-    /* height: fit-content; */
+    padding: 10px 17px;
 
-    &:hover {
-        background-color: rgb(39, 39, 39);
-    }
 
     @media (max-width: 375px)  {
         padding: 10px 17px;
         font-size: 12.375px;
     }
+}
+
+.cardBtn {
+    color: rgb(249 249 249);
+    background-color: rgb(27, 27, 27);
+    /* height: fit-content; */
+
+    &:hover {
+        background-color: rgb(39, 39, 39);
+    }
+}
+
+.navLinks {
+    color: #545454;
+    background-color: transparent;
+    padding: 10px 15px;
 }
 
 .navBtn {
@@ -58,9 +82,8 @@
 }
 
 .cardBtn {
-    background-color: transparent;
-    color: #2d2d2d;
-    border: 1px solid #2d2d2d;
+    background-color: #2d2d2d;
+    color: rgb(249 249 249);
 }
 
 .light {

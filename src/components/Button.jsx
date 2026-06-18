@@ -6,12 +6,15 @@ export function Button(props) {
     return(
         <>
             <button className={
-                `${props.clicked ? styles.active : ''} 
+                `${props.clicked ? styles.active : ''}
+                ${props.home == 'home-nav' ? styles.navLinks : ''} 
+                ${props.home == 'nav-action' ? styles.actionBtn : ''} 
+                ${props.home == 'landing-action' ? styles.landingActionBtn : ''} 
                 ${props.home == 'nav' ? styles.navBtn : ''} 
                 ${props.home == 'card' ? styles.cardBtn : ''}
                 ${props.theme == 'light' ? styles.light : ''}`
             }
-                onClick={(e) => clickHandler(e)}
+                onClick={(e) => props.clickHandler(e)}
             >{`${props.name}`}</button>
         </>
     )

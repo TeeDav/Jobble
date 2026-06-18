@@ -15,15 +15,16 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 0 auto;
-    border-bottom: 1.5px solid #d1d1d1;
+    /* border-bottom: 1.5px solid #d1d1d1; */
     padding: 15px 21px;
     border-radius: 49px;
     padding-bottom: 20px;
     align-items: center;
     padding-top: 18px;
-    background-color:#fefefe;
-    box-shadow: 0 4px 6px -2px #d7d7d7;
+    background-color: transparent;
+    /* box-shadow: 0 4px 6px -2px #d7d7d7; */
     height: 65px;
+    margin-top: 10px;
 
 
 
@@ -48,6 +49,13 @@
         /* gap: 29px;
         justify-content: flex-start; */
     }
+}
+
+.wrapperVariant {
+    border-bottom: 1.5px solid #d1d1d1;
+    box-shadow: 0 4px 6px -2px #d7d7d7;
+    background-color:#fefefe;
+    /* margin-top: 0px; */
 }
 
 .wrapper {
@@ -76,14 +84,16 @@
 .profile {
     display: flex;
     flex-direction: row;
-    gap: 1.115vw;
+    gap: 0.5vw;
     margin-right: 0px;
-
-    display: none;
 
     @media (max-width: 766px)  {
         display: none;
     }
+}
+
+.displayToggle {
+    display: none;
 }
 
 .hamburger {
@@ -92,6 +102,19 @@
     @media (max-width: 766px)  {
         display: none;
     }
+}
+
+.homeLinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 19px;
+    width: fit-content;
+    padding: 3px 27px;
+    gap: 1.2vw;
+    background-color: #f7f7f7;
+    margin-left: 7.5%;
 }
 
 .userImage {
