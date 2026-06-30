@@ -43,7 +43,7 @@ export function Nav(props) {
             </div>
 
             <div className={`${props.appState == 'logged-in' ? styles.userImage : styles.displayToggle}`}>
-                <img src={`src/assets/images/profile_1.jpg`} alt="" />
+                <img src={`/profile_1.jpg`} alt="" />
             </div>
             <img className={styles.hamburger} src={`src/assets/icon-hamburger.svg`} />
         </div>
