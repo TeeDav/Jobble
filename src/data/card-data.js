@@ -7,7 +7,7 @@ export const jobs = [
         role: 'Web Designer',
         rate: '$85/hr',
         city: 'Ney York, NY',
-        logo: 'src/assets/dribbble.png',
+        logo: 'public/dribbble.png',
         additional_details: {
             work_mode: 'Contract',
             level: '',
@@ -22,7 +22,7 @@ export const jobs = [
         role: 'Software Engineer',
         rate: '$200-250k',
         city: 'Ney York, NY',
-        logo: 'src/assets/apple.png',
+        logo: 'public/apple.png',
         additional_details: {
             work_mode: 'Full-time',
             level: '',
@@ -37,7 +37,7 @@ export const jobs = [
         role: 'Frontend Engineer',
         rate: '$150 - 220k',
         city: 'San Fransisco, CA',
-        logo: 'src/assets/amazon_black.png',
+        logo: 'public/amazon_black.png',
         additional_details: {
             work_mode: 'Part-time',
             level: 'Senior level',
@@ -52,7 +52,7 @@ export const jobs = [
         role: 'Software Engineer',
         rate: '$120/hr',
         city: 'Mountain View, CA',
-        logo: 'src/assets/google.png',
+        logo: 'public/google.png',
         additional_details: {
             work_mode: 'Contract',
             level: '',
@@ -67,7 +67,7 @@ export const jobs = [
         role: 'UX Designer',
         rate: '$200-250k',
         city: 'Ney York, NY',
-        logo: 'src/assets/amazon_black.png',
+        logo: 'public/amazon_black.png',
         additional_details: {
             work_mode: 'Full-time',
             level: '',
@@ -82,7 +82,7 @@ export const jobs = [
         role: 'UX Researcher',
         rate: '$200-250k',
         city: 'Ney York, NY',
-        logo: 'src/assets/apple.png',
+        logo: 'public/apple.png',
         additional_details: {
             work_mode: 'Contract',
             level: '',
@@ -97,7 +97,7 @@ export const jobs = [
         role: 'Junior UX/UI Designer',
         rate: '$120/hr',
         city: 'Mountain View, CA',
-        logo: 'src/assets/google.png',
+        logo: 'public/google.png',
         additional_details: {
             work_mode: 'Contract',
             level: '',
@@ -112,7 +112,7 @@ export const jobs = [
         role: 'Senior Motion Designer',
         rate: '$85/hr',
         city: 'Ney York, NY',
-        logo: 'src/assets/dribbble.png',
+        logo: 'public/dribbble.png',
         additional_details: {
             work_mode: 'Contract',
             level: '',
@@ -127,7 +127,7 @@ export const jobs = [
         role: 'DevOps Engineer',
         rate: '$200-250k',
         city: 'Ney York, NY',
-        logo: 'src/assets/amazon_black.png',
+        logo: 'public/amazon_black.png',
         additional_details: {
             work_mode: 'Full-time',
             level: 'Mid-level',
@@ -142,7 +142,7 @@ export const jobs = [
         role: 'Graphic Designer',
         rate: '$150 - 220k',
         city: 'San Fransisco, CA',
-        logo: 'src/assets/amazon_black.png',
+        logo: 'public/amazon_black.png',
         additional_details: {
             work_mode: 'Part-time',
             level: 'Senior level',
@@ -157,7 +157,7 @@ export const jobs = [
         role: 'Site Reliability Engineer',
         rate: '$120/hr',
         city: 'Mountain View, CA',
-        logo: 'src/assets/google.png',
+        logo: 'public/google.png',
         additional_details: {
             work_mode: 'Contract',
             level: '',
@@ -172,7 +172,7 @@ export const jobs = [
         role: 'Senior Motion Designer',
         rate: '$85/hr',
         city: 'Ney York, NY',
-        logo: 'src/assets/dribbble.png',
+        logo: 'public/dribbble.png',
         additional_details: {
             work_mode: 'Contract',
             level: '',
@@ -187,7 +187,7 @@ export const jobs = [
         role: 'UX Designer',
         rate: '$200-250k',
         city: 'Ney York, NY',
-        logo: 'src/assets/apple.png',
+        logo: 'public/apple.png',
         additional_details: {
             work_mode: 'Full-time',
             level: '',
@@ -202,7 +202,7 @@ export const jobs = [
         role: 'Cloud Architect',
         rate: '$200-250k',
         city: 'Ney York, NY',
-        logo: 'src/assets/amazon_black.png',
+        logo: 'public/amazon_black.png',
         additional_details: {
             work_mode: 'Full-time',
             level: '',
@@ -217,7 +217,7 @@ export const jobs = [
         role: 'UX Researcher',
         rate: '$200-250k',
         city: 'Ney York, NY',
-        logo: 'src/assets/apple.png',
+        logo: 'public/apple.png',
         additional_details: {
             work_mode: 'Contract',
             level: '',
@@ -232,7 +232,7 @@ export const jobs = [
         role: 'Junior UX/UI Designer',
         rate: '$120/hr',
         city: 'Mountain View, CA',
-        logo: 'src/assets/google.png',
+        logo: 'public/google.png',
         additional_details: {
             work_mode: 'Contract',
             level: '',
@@ -247,7 +247,7 @@ export const jobs = [
         role: 'Senior Motion Designer',
         rate: '$85/hr',
         city: 'Ney York, NY',
-        logo: 'src/assets/dribbble.png',
+        logo: 'public/dribbble.png',
         additional_details: {
             work_mode: 'Contract',
             level: '',
@@ -262,7 +262,7 @@ export const jobs = [
         role: 'UI Designer',
         rate: '$200-250k',
         city: 'Ney York, NY',
-        logo: 'src/assets/amazon_black.png',
+        logo: 'public/amazon_black.png',
         additional_details: {
             work_mode: 'Full-time',
             level: 'Mid-level',
