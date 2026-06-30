@@ -1,7 +1,7 @@
 import styles from './Landingpage.module.css'
 import { Button } from './Button'
 
-export function Landingpage() {
+export function Landingpage(props) {
     return(
         <section className={styles.container}>
             <section className={styles.landing}>
@@ -15,7 +15,7 @@ export function Landingpage() {
                 
                 <div className={styles.ctaWrapper}>
                     <Button name='Join Wait List' home='landing-action'/>
-                    <Button name='Explore Demo' home='landing-action' theme='light'/>
+                    <Button name='Explore Demo' home='landing-action' theme='light' clickHandler={props.loginAction}/>
                 </div>
             </section>
             
