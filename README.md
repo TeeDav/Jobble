@@ -1,4 +1,4 @@
 # Jobble
 AI-powered job search.
 
-Frontend implementation, built with React.
+Frontend built with React.
